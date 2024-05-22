@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mitt favoritrecept</title>
 </head>
+
 <body>
     <header>
         <h1>Mitt favoritrecept är pannkakor</h1>
-        <img src="https://res.cloudinary.com/coopsverige/image/upload/f_auto,fl_progressive,q_90,g_center,h_800,w_800/v1647853838/cloud/249637.jpg" alt="omslagsbild på pannkakor">
+        <img id="header-img"
+            src="https://res.cloudinary.com/coopsverige/image/upload/f_auto,fl_progressive,q_90,g_center,h_800,w_800/v1647853838/cloud/249637.jpg"
+            alt="omslagsbild på pannkakor">
     </header>
-    <main>
-        <article>
-            <h2>Ingredienser</h2>
-            <ul>
-                <li>2 1/2 dl vetemjöl</li>
-                <li>1/2 tsk salt</li>
-                <li>6 dl mjölk</li>
-                <li>3  ägg</li>
-                <li>smör</li>
-                <li>sylt, bär eller grädde</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Recept</h2>
-            <ol>
-                <li>Blanda mjöl och salt i en bunke. Vispa i hälften av mjölken och vispa till en slät smet. Vispa i resten av mjölken och äggen. Låt smeten vila ca 10 minuter.</li>
-                <li>Stek tunna pannkakor i lite smör, för varje pannkaka, i en stek- eller pannkakspanna.</li>
-                <li>Servera med sylt, bär eller grädde</li>
-            </ol>
-        </article>
-    </main>
-    <aside>
-        <figure>
-            <img src="https://receptfavoriter.se/sites/default/files/amerikanska_pannkakor_1200_9.jpg" alt="Ingredienser till pannkakor">
-            <img src="https://tina.se/wp-content/uploads/2021/11/Tina_Pannkakor.jpeg" alt="stekning av pannkakor">
-        </figure>
-    </aside>
+    <div class="container">
+        <main>
+            <article class="instructions">
+                <h2>Recept</h2>
+                <ol>
+                    <li>Blanda mjöl och salt i en bunke. Vispa i hälften av mjölken och vispa till en slät smet. Vispa i
+                        resten av mjölken och äggen. Låt smeten vila ca 10 minuter.</li>
+                    <li>Stek tunna pannkakor i lite smör, för varje pannkaka, i en stek- eller pannkakspanna.</li>
+                    <li>Servera med sylt, bär eller grädde</li>
+                </ol>
+                <img src="https://tina.se/wp-content/uploads/2021/11/Tina_Pannkakor.jpeg" alt="stekning av pannkakor">
+            </article>
+        </main>
+        <aside>
+            <article class="ingredients">
+                <h2>Ingredienser</h2>
+                <ul>
+                    <li>2 1/2 dl vetemjöl</li>
+                    <li>1/2 tsk salt</li>
+                    <li>6 dl mjölk</li>
+                    <li>3 ägg</li>
+                    <li>smör</li>
+                    <li>sylt, bär eller grädde</li>
+                </ul>
+                <img src="https://receptfavoriter.se/sites/default/files/amerikanska_pannkakor_1200_9.jpg"
+                    alt="Ingredienser till pannkakor">
+            </article>
+        </aside>
+    </div>
     <footer>
         <h3>Kontaktuppgifter</h3>
         <p>Hektor Davidsson</p>
@@ -44,4 +51,5 @@
         <p>Hittapågatan 123 Stockholm</p>
     </footer>
 </body>
+
 </html>
